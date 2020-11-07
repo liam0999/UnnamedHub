@@ -1,1 +1,23 @@
-local test = workspace
+local currentgame = ''
+
+local marketplaceService = game:GetService("MarketplaceService")
+local isSuccessful, info = pcall(marketplaceService.GetProductInfo, marketplaceService, game.PlaceId)
+if isSuccessful then
+	currentgame = info.Name
+end
+
+local games = {
+	["Odessa, Ukraine"] = {
+		["script"] = "https://github.com/liam0999/uhScripts/blob/main/State%20of%20Anarchy%20-%20Odessa-Ukraine";
+		["ID"] = 1517425836
+	},
+	["StateofAnarchyPetersburg"] = {
+		["script"] = "State of Anarchy - Petersburg, Russia"; 
+		["ID"] = 1517425836
+	}
+}
+for i,v in pairs(games) do
+	if currentgame == i and games[i]["ID"] == game.PlaceId then
+		loadstring(game:HttpGet(games[i]["script"]))();
+	end
+end
