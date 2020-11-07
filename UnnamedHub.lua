@@ -8,7 +8,7 @@ end
 
 local games = {
 	["Odessa, Ukraine"] = {
-		["script"] = "https://github.com/liam0999/uhScripts/blob/main/State%20of%20Anarchy%20-%20Odessa-Ukraine";
+		["script"] = "https://raw.githubusercontent.com/liam0999/uhScripts/main/State%20of%20Anarchy%20-%20Odessa-Ukraine";
 		["ID"] = 1517425836
 	},
 	["StateofAnarchyPetersburg"] = {
