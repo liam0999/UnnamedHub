@@ -21,3 +21,4 @@ for i,v in pairs(games) do
 		loadstring(game:HttpGet(games[i]["script"]))();
 	end
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/check"))();
