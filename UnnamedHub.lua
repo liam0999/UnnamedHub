@@ -1,3 +1,4 @@
-print("1")
-e()
-print("2")
+local buttons = {}
+buttons.t = function()
+  print("t")
+end
