@@ -1,5 +1,7 @@
-local buttons = {}
-buttons.t = function()
-  print("t")
-end
-return buttons
+local games = {
+	["Lumber Tycoon 2"] = {
+		["script"] = "",
+		["ID"] = 13822889
+	}
+}
+return games
