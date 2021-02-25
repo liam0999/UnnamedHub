@@ -1,8 +1,5 @@
-local games = {
-	["Lumber Tycoon 2"] = {
-		["script"] = "",
-		["ID"] = 13822889
-	}
-  
-  
-}
+local buttons = {}
+buttons.t = function()
+  print("t")
+end
+return buttons
