@@ -1,8 +1,0 @@
-local games = {
-	["Lumber Tycoon 2"] = {
-		["script"] = "",
-		["ID"] = 13822889
-	}
-}
-
-return games
