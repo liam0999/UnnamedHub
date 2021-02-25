@@ -3,6 +3,7 @@ local f = false
 for _,t in pairs(gs) do
 	if game.PlaceId == t.ID then
 		f = true
+		print(t)
 		return t.script
 	end
 end
