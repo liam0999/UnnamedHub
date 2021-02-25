@@ -1,6 +1,6 @@
-local g = loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/games"))
+local gs = loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/games"))
 local f = false
-for _,t in pairs(g) do
+for _,t in pairs(gs) do
 	if game.PlaceId == t.ID then
 		f = true
 		return t.script
