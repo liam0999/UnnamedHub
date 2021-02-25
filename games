@@ -4,4 +4,6 @@ local games = {
 		["ID"] = 13822889
 	}
 }
+print("1")
+print(games)
 return games
