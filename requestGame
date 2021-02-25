@@ -1,12 +1,6 @@
-local gs = loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/games"))
-local f = false
+local gs = loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/games"))()
 for _,t in pairs(gs) do
 	if game.PlaceId == t.ID then
-		f = true
-		print(t)
-		return t.script
+		return t.script, _
 	end
-end
-if not f then
-	return "https://raw.githubusercontent.com/liam0999/uhScripts/main/UniversalAimbot%26ESP"
 end
