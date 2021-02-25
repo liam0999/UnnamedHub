@@ -1,6 +1,6 @@
 local gs = {
 	["Lumber Tycoon 2"] = {
-		["script"] = "",
+		["script"] = "https://raw.githubusercontent.com/liam0999/uhScripts/main/Lumber%20Tycoon%202",
 		["ID"] = 13822889
 	}
 }
