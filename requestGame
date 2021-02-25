@@ -1,4 +1,9 @@
-local gs = loadstring(game:HttpGet("https://raw.githubusercontent.com/liam0999/UnnamedHub/main/games"))()
+local gs = {
+	["Lumber Tycoon 2"] = {
+		["script"] = "",
+		["ID"] = 13822889
+	}
+}
 for _,t in pairs(gs) do
 	if game.PlaceId == t.ID then
 		return t.script, _
