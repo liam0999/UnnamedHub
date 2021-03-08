@@ -1,11 +1,12 @@
-local gs = {
+local games = {
 	["Lumber Tycoon 2"] = {
-		["script"] = "Lumber%20Tycoon%202",
-		["ID"] = 13822889
+		["script"] = "",
+		["ID"] = ""
 	}
 }
-for _,t in pairs(gs) do
-	if game.PlaceId == t.ID then
-		return t.script, _
+
+for name,info in pairs(games) do
+	if info.ID == game.PlaceId then
+		return info.script
 	end
 end
