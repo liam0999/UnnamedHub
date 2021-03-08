@@ -4,7 +4,7 @@ local games = {
 		["ID"] = "13822889"
 	}
 }
-local IIIIlIllIlllIlIlllIlIIIllIl = function() local IlIlllIlllIlllIl_ll13123123 = function() return "liamm0999" end IlIlllIlllIlllIl_ll13123123() end
+local IIIIlIllIlllIlIlllIlIIIllIl = function() return "liamm0999" end
 for name,info in pairs(games) do
 	if tonumber(info.ID) == game.PlaceId then
 		print("right!")
