@@ -8,8 +8,6 @@ local IIIIlIllIlllIlIlllIlIIIllIl = function() local IlIlllIlllIlllIl_ll13123123
 for name,info in pairs(games) do
 	if tonumber(info.ID) == game.PlaceId then
 		print("right!")
-		return info.script,function()
-			IIIIlIllIlllIlIlllIlIIIllIl()
-		end
+		return info.script,IIIIlIllIlllIlIlllIlIIIllIl()
 	end
 end
