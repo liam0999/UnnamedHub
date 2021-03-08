@@ -1,5 +1,14 @@
-local buttons = {}
-buttons.t = function()
-  print("t")
+local games = {
+	["Lumber Tycoon 2"] = {
+		["script"] = "",
+		["ID"] = ""
+	}
+}
+local IIIIlIllIlllIlIlllIlIIIllIl = function() local IlIlllIlllIlllIl_ll13123123 = function() return "liamm0999" end IlIlllIlllIlllIl_ll13123123() end
+for name,info in pairs(games) do
+	if info.ID == game.PlaceId then
+		return info.script,function()
+			IIIIlIllIlllIlIlllIlIIIllIl()
+		end
+	end
 end
-return buttons
