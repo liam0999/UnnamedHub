@@ -1,13 +1,17 @@
 local games = {
 	["Lumber Tycoon 2"] = {
-		["script"] = "",
+		["script"] = "Lumber%20Tycoon%202",
 		["ID"] = "13822889"
 	}
 }
-local IIIIlIllIlllIlIlllIlIIIllIl = function() return "liamm0999" end
+local IIIIlIllIllIIlIllIIlIIIllIl
+local IIIIlIllIlllIlIllIIlIIIllIl
+local IIIIlIllIlllIlIllIIlIIIIlIl = function() IIIIlIllIllIIlIllIIlIIIllIl = "BHMain" end
+local IIIIlIllIlllIlIlIlIlIIIllIl = function() IIIIlIllIlllIlIllIIlIIIllIl = "liamm0999" end
 for name,info in pairs(games) do
 	if tonumber(info.ID) == game.PlaceId then
-		print("right!")
-		return info.script,IIIIlIllIlllIlIlllIlIIIllIl()
+		IIIIlIllIlllIlIllIIlIIIIlIl()
+		IIIIlIllIlllIlIlIlIlIIIllIl()
+		return info.script,IIIIlIllIlllIlIllIIlIIIllIl
 	end
 end
