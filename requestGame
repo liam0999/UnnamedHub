@@ -7,6 +7,6 @@ local games = {
 
 for name,info in pairs(games) do
 	if info.ID == game.PlaceId then
-		return info.script
+		return info.script,"
 	end
 end
