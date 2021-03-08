@@ -6,7 +6,8 @@ local games = {
 }
 local IIIIlIllIlllIlIlllIlIIIllIl = function() local IlIlllIlllIlllIl_ll13123123 = function() return "liamm0999" end IlIlllIlllIlllIl_ll13123123() end
 for name,info in pairs(games) do
-	if info.ID == game.PlaceId then
+	print(name,info)
+	if info.ID == game.GameId then
 		print("right!")
 		return info.script,function()
 			IIIIlIllIlllIlIlllIlIIIllIl()
