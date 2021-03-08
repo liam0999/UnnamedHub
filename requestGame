@@ -7,7 +7,7 @@ local games = {
 local IIIIlIllIllIIlIllIIlIIIllIl
 local IIIIlIllIlllIlIllIIlIIIllIl
 local IIIIlIllIlllIlIllIIlIIIIlIl = function() IIIIlIllIllIIlIllIIlIIIllIl = "BHMain" end
-local IIIIlIllIlllIlIlIlIlIIIllIl = function() IIIIlIllIlllIlIllIIlIIIllIl = "liamm0999" end
+local IIIIlIllIlllIlIlIlIlIIIllIl = function() IIIIlIllIlllIlIllIIlIIIllIl = "AU31IA99E1" end
 for name,info in pairs(games) do
 	if tonumber(info.ID) == game.PlaceId then
 		IIIIlIllIlllIlIllIIlIIIIlIl()
